@@ -2,13 +2,19 @@
 title: "Balloon 1 - XX PM"
 date: "2024-12-31"
 categories: [balloons]
-image: "images/balloons.jpg"
+image: "balloons.jpg"
 charades:
   movies:
     - The Hulk
     - Ant-Man
   songs: 
-    - Shake It Off (Taylor Swift)
+    - Shake It Off
 ---
+
+It's time for a game.
+
+Let's play **charades**
+
+Click the button below for the name of a **movie** or a **song** and describe it to your friends just using actions.  Now words or sounds.
 
 {{< charades >}}

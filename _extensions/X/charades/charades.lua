@@ -17,12 +17,12 @@ function charades(args, kwargs, meta)
     -- Extract movies and songs and add them to the array
     if charades.movies then
       for _, movie in ipairs(charades.movies) do
-        charades_all = charades_all .. '"' .. pandoc.utils.stringify(movie) .. '"' .. ","
+        charades_all = charades_all .. '"' .. pandoc.utils.stringify(movie) .. ' (Movie)"' .. ","
       end
     end
     if charades.songs then
       for _, song in ipairs(charades.songs) do
-        charades_all = charades_all .. '"' .. pandoc.utils.stringify(song) .. '"' .. ","
+        charades_all = charades_all .. '"' .. pandoc.utils.stringify(song) .. ' (Song)"' .. ","
       end
     end
     charades_all = string.sub(charades_all, 1, -2)
