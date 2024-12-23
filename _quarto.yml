@@ -1,8 +1,10 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "NewYear"
+  site-url: "https://"
 
 format:
   html:
