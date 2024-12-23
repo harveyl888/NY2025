@@ -1,6 +1,6 @@
-title: charades
+title: NewYear
 author: Harvey Lieberman
 version: 0.0.1
 contributes: 
   shortcodes: 
-    - charades.lua
+    - newyear.lua

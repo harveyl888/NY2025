@@ -1,6 +1,9 @@
-function charades_choose() {
+function array_choose(type) {
 
-  const el = document.getElementById('charade_but');
+  const but_id = type + '_but';
+  const text_id = type + '_text';
+
+  const el = document.getElementById(but_id);
   let ar = JSON.parse(el.getAttribute('data-array'));
 
   // choose a random charade
@@ -18,5 +21,5 @@ function charades_choose() {
   }
 
   // update name of charade
-  document.getElementById("charade_text").innerHTML = charade_name;
+  document.getElementById(text_id).innerHTML = charade_name;
 }
