@@ -3,17 +3,12 @@ project:
 
 website:
   title: "NewYear"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    embed-resources: true
 
 
 

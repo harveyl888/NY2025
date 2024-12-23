@@ -1,7 +1,14 @@
 ---
-title: "NewYear"
+title: "Happy New Year"
+listing:
+  contents: posts
+  sort: "title"
+  type: grid
+  fields: [image, title]
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  max-description-length: 0
+page-layout: full
+title-block-banner: true
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
