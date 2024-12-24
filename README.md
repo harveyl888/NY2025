@@ -15,9 +15,12 @@ Once rendered, the Quarto site includes a QRcodes page, holding QR codes which p
 
 ### How to use
 
--  Clone the repo, update `site-url` in `_quarto.yml` to point to the site where you'd like to host (this is used to build the QR codes).
--  Render the site using `quarto render`.  This builds the site in the `docs` folder.
+-  Clone the repo.
+-  **Important:** update `site-url` in `_quarto.yml` to point to the site where you'll be hosting (this is used to build the QR codes).
+-  Render the site using `quarto render`.  This builds the site in the `docs` folder.  The following R packages are needed to build the QR codes: {yaml}, {rmarkdown}, {qrcode}.
 -  Push to GitHub repo and follow instructions under https://quarto.org/docs/publishing/github-pages.html#render-to-docs to configure the GitHub repo to publish from the `docs` directory of the `main` branch.
+
+Example available at https://harveyl888.github.io/newyear/
 
 
 ## Shortcodes
