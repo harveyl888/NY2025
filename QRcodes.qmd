@@ -1,0 +1,31 @@
+---
+title: QR Codes
+---
+
+```{r}
+#| label: build_codes
+#| echo: false
+#| results: asis
+
+quarto_yaml <- yaml::read_yaml("_quarto.yml")
+url <- quarto_yaml$website$`site-url`
+posts <- list.files("posts")
+
+cat("::: {#fig-QR layout-ncol=3}\n")
+
+for (i in seq_along(posts)) {
+  # generate a QR code
+  qr <- qrcode::qr_code(file.path(url, "posts", posts[i]))
+
+  # save QR code as svg
+  f <- file.path("qr_svg", sprintf("f%02i.svg", i))
+  qrcode::generate_svg(qr, filename = f, show = FALSE, size = 200)
+
+  # get title and add as label
+  post_yaml <- rmarkdown::yaml_front_matter(file.path("posts", posts[i], "index.qmd"))
+  cat(paste0("![", post_yaml$title,  "](", f, ")\n\n"))
+}
+
+cat("QR Codes\n\n:::\n")
+
+```

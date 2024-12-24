@@ -5,12 +5,14 @@ project:
 website:
   title: "NewYear"
   site-url: "https://harveyl888.github.io/newyear/"
+  navbar: 
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "QR Codes"
+        href: "QRcodes.qmd"
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    embed-resources: true
-
-
-
