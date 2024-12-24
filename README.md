@@ -48,7 +48,7 @@ and include the following in the page text:
 ```
 
 ### Tongue Twisters
-The tonguetwister shortcode adds a button which, when clicked, shows a random charade to act out.
+The tonguetwister shortcode adds a button which, when clicked, shows a random tongue twister to try to say.
 
 Add the following to the yaml header:
 ```yaml
