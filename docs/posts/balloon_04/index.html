@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2024-12-31">
 
-<title>Balloon 4 - 11:00 PM – NewYear</title>
+<title>Balloon 4 - 08:30 PM – NewYear</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,6 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/charades-0.0.1/script.js"></script>
+<link href="../../site_libs/quarto-contrib/charades-0.0.1/style.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Balloon 4 - 11:00 PM</h1>
+<h1 class="title">Balloon 4 - 08:30 PM</h1>
   <div class="quarto-categories">
     <div class="quarto-category">balloons</div>
   </div>
@@ -140,9 +142,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Can you sing?</p>
-<p>By this time of night it doesn’t really matter.</p>
-<p>Let’s do Karaoke! Go to <strong>YouTube</strong> on the TV and search for Karaoke songs. Who has the best voice?</p>
+<p>It’s time for a game.</p>
+<p>Let’s play <strong>charades</strong></p>
+<p>Click the button below for the name of a <strong>movie</strong> or a <strong>song</strong> and describe it to your friends just using actions. Now words or sounds.</p>
+<button id="charade_but" type="button" class="btn btn-info" data-array="[&quot;The Hulk (Movie)&quot;,&quot;Ant-Man (Movie)&quot;,&quot;Ant-Man and the Wasp (Movie)&quot;,&quot;Cats and Dogs (Movie)&quot;,&quot;Beauty and the Beast (Movie)&quot;,&quot;King Kong (Movie)&quot;,&quot;The Lion King (Movie)&quot;,&quot;The Secret Life of Pets (Movie)&quot;,&quot;Mean Girls (Movie)&quot;,&quot;Star Wars (Movie)&quot;,&quot;Shake It Off (Song)&quot;,&quot;Paint the Town Red (Song)&quot;,&quot;Get Him Back (Song)&quot;,&quot;Fight Song (Song)&quot;,&quot;Snow Angel (Song)&quot;]" onclick="array_choose('charade')">New Charade</button><div><p id="charade_text" class="text-info bigger-text"></p></div>
 
 
 
@@ -239,7 +242,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/harveyl888\.github\.io\/newyear\/");
+      var filterRegex = new RegExp("https:\/\/harveyl888\.github\.io\/NY2025\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

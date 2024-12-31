@@ -1,32 +1,8 @@
 ---
-title: "Balloon 1 - 8:00 PM"
+title: "Balloon 1 - 6:00 PM"
 date: "2024-12-31"
 categories: [balloons]
 image: "balloons.jpg"
-charades:
-  movies:
-    - The Hulk
-    - Ant-Man
-    - Ant-Man and the Wasp
-    - Cats and Dogs
-    - Beauty and the Beast
-    - King Kong
-    - The Lion King
-    - The Secret Life of Pets
-    - Mean Girls
-    - Star Wars
-  songs: 
-    - Shake It Off
-    - Paint the Town Red
-    - Get Him Back
-    - Fight Song
-    - Snow Angel
 ---
 
-It's time for a game.
-
-Let's play **charades**
-
-Click the button below for the name of a **movie** or a **song** and describe it to your friends just using actions.  Now words or sounds.
-
-{{< charades >}}
+Friends have started to come.  Let's start with some tasty snacks whilst we wait for everyone to arrive.
