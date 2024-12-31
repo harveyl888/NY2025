@@ -2,6 +2,7 @@
 title: "Balloon 4 - 08:30 PM"
 date: "2024-12-31"
 categories: [balloons]
+image: "balloons.jpg"
 charades:
   movies:
     - The Hulk
