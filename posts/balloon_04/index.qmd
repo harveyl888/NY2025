@@ -15,12 +15,37 @@ charades:
     - The Secret Life of Pets
     - Mean Girls
     - Star Wars
+    - Scream
+    - Scream 2
+    - Trolls
+    - Hunger Games
+    - Inside Out
+    - Inside Out 2
+    - The Karate Kid
+    - Back to the Future
+    - Lady Bird
+    - The Parent Trap
+    - The Princess Diaries
+    - Honey, I Shrunk the Kids
+    - Cloudy with a Chance of Meatballs
+    - Ratatouille
+    - Edward Scissorhands
   songs: 
     - Shake It Off
     - Paint the Town Red
     - Get Him Back
     - Fight Song
     - Snow Angel
+    - Texas Hold Em
+    - A Bar Song (Tipsy)
+    - Hot to Go
+    - Vampire
+    - Bad Guy
+    - Birds of a Feather
+    - I Love It
+    - But Daddy I Love Him
+    - Bad Blood
+    - Snow on the Beach
 ---
 
 It's time for a game.
